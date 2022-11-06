@@ -6,6 +6,8 @@
     src: url('../assets/font/oriya.woff') format('woff');
     }
 
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
 html,
       body {
         position: relative;
@@ -15,7 +17,7 @@ html,
 
       body {
         background:white;
-        font-family: font;
+        font-family: 'Belleza', sans-serif;
         font-size: 14px;
         color: #000;
         margin: 0;
