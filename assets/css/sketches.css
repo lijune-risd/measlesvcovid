@@ -166,6 +166,7 @@ html{
       padding-top:20%;
       font-size:3rem;
       font-weight:200;
+    margin:0;
   }
 
   p{
@@ -265,7 +266,7 @@ html{
   }
 
   #measles-public-fund{
-  margin:0% 2% 15% -50%;
+  margin:0% 2% 0% -50%;
   width:200%;
   overscroll-behavior: none;
 
