@@ -1,0 +1,130 @@
+@font-face{
+  font-family:font;
+  src: url(/assets/font/oriya.ttc);
+  }
+
+
+
+html{
+        height: 100%;
+        margin:0;
+        height:100%;
+        font-family: font;
+        background-image:url("assets/images/export.png");
+}
+
+html{
+    height:200%;
+    margin:0;
+    background-repeat: no-repeat;
+  }
+
+  body{
+    height:100%;
+
+  }
+
+h2 {
+  color:white;
+    font-size: 2rem;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
+  .fa-home{
+    color:white;
+  }
+  .fa-home:active{
+    color:blue;
+  }
+
+
+.btn {
+  position:relative;
+	margin-top: 1rem;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	color: grey;
+	padding: 5px 20px;
+	border-radius: 4rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	z-index: 4;
+	margin-bottom: 1rem;
+}
+
+.overlay{
+
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html{
+    margin:0;
+    height:100%;
+    font-family: font; 
+    background-color:#2d4d91;
+  }
+
+  body{
+    margin:0;
+  }
+  
+  p{
+    font-size:3rem;
+    color:white;
+    padding-bottom: 20%;
+  }
+
+	.btn {
+    position:relative;
+		margin-top: 0.5rem;
+    margin-left: 22%;
+		text-align:center;
+		font-family: inherit;
+		font-size: 5rem;
+		font-weight: bold;
+		background-color: transparent;
+		border: 2px solid white;
+		color: grey;
+		padding: 5px 20px;
+		border-radius: 4rem;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+		z-index: 5;
+		margin-bottom: 1rem;
+	}
+
+  nav{
+    border-radius: 0px 0px 30px 30px;
+    height:30%;
+    z-index:10000;
+    color:white;
+    width: 100px;
+  }
+
+  .fa.fa-home {
+    font-size:4rem;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 10px;
+    margin:50%;
+    text-align:center;
+    width: 6rem;
+  }
+
+  .block{
+    position:relative;
+  }
+}

@@ -1,0 +1,385 @@
+:root{
+  --swiper-color: #0709c0
+}
+
+@font-face{
+font-family:font;
+src: url(/assets/font/oriya.ttc);
+}
+
+html{
+    height:100%;
+    font-family: font;
+    background-color:#F2ECDF;
+
+
+  }
+  body{
+    height:100%;
+  }
+
+  h2{
+      padding-top:20%;
+      font-size:4rem;
+      font-weight:200;
+  }
+
+  p{
+      font-weight:100;
+      line-height:1.5;
+      font-size:1rem;
+  }
+
+  .lineUp {
+    animation: 2s anim-lineUp ease-out ;
+  }
+
+  button {
+      background-color:transparent;
+      padding: 2%;
+      color:white;
+      border-radius:500px;
+      border: 1px solid white;
+  }
+
+  button:hover {
+    background-color:white;
+    padding: 2%;
+    color:red;
+    border-radius:500px;
+    border: 1px solid white;
+    transition: 0.5s ease-in;
+}
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #A52422;
+    color:white;
+    padding: 3%;
+    width:30%;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    width:60%;
+  }
+
+  .fa-home{
+    color:white;
+  }
+  .fa-home:active{
+    color:blue;
+  }
+
+  .blue{
+    background-color:#3B54A4;
+  }
+
+  .video{
+    background-image:url("blood.gif");
+  }
+
+
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+ 
+  width: 100vw;
+  margin-top: -10px;
+  z-index:-1000;
+}
+
+.com{
+  display:none;
+}
+
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+ 
+  html {
+    background-color: white;
+  }
+  .red{
+    background-color:#fe2400;
+  }
+
+  .blue{
+    color: var(--swiper-color);
+    background-color: var(--swiper-color);
+  }
+
+  .grey{
+    background-color:grey;
+  }
+
+  nav{
+    border-radius: 0px 0px 30px 30px;
+    height:40%;
+    z-index:10000;
+    color:grey;
+    width:100%;
+  }
+
+  ul{
+      text-align:center;
+      font-size:3rem;
+      color:white;
+      color:grey;
+
+  }
+
+
+  body{
+    margin:0;
+    color:grey;
+  }
+
+  h2{
+      padding-top:20%;
+      font-size:3rem;
+      font-weight:200;
+  }
+
+  p{
+      font-weight:100;
+      line-height:1.5;
+      font-size:1.5rem;
+  }
+  .split {
+    z-index: 1;
+    top: 0;
+    position:relative;
+
+  }
+  
+  /* Control the left side */
+  .left {
+    height: 120%;
+    color:white;
+    padding: 5% 10% 5% 10%;
+    width:100%;
+    
+    
+  }
+
+.left #lineUp#myDIV{
+    width:90%;
+  }
+
+
+ 
+  .right {
+    height: 82%;
+    padding: 5% 10% 5% 10%;
+    width:100%;
+    width:100%;
+    color:grey;
+
+  }
+
+  canvas{
+    width: 2000px;
+    height: 2000px;
+    position: absolute;
+    /* left: 500px; */
+  }
+
+  #lineUp myDIV{
+    width:50%;
+  }
+
+  #death{
+    width:100vw;
+    padding-right: -100px;
+  }
+
+  img#blood{
+    width:0;
+    opacity:0;
+  }
+
+  button {
+    font-size:4rem;
+    background-color:transparent;
+    padding: 2%;
+    color:white;
+    border-radius:500px;
+    border: 1px solid white;
+  }
+
+  button:hover {
+    font-size:4rem;
+    background-color:white;
+    padding: 2%;
+    color:red;
+    border-radius:500px;
+    border: 1px solid white;
+    transition: 0.5s ease-in;
+  }
+
+  video{
+    margin-top:20%;
+  }
+
+  .gone{
+    display:none;
+  }
+
+  .fa.fa-home {
+    font-size:1rem;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 10px;
+    margin:10%;
+    text-align:center;
+    width: 2rem;
+  }
+
+  #measles-public-fund{
+  margin:0% 2% 15% -50%;
+  width:200%;
+  overscroll-behavior: none;
+
+  }
+
+
+  #c-public-fund{
+    margin:-10% 10% 15% -17%;
+    width:130%;
+    overscroll-behavior: none;
+  
+    }
+
+  .button-house{
+    margin: 0 0 0 30%;
+  }
+
+  .phone-b {
+    font-size:1.5rem;
+    font-family:font;
+    background-color:transparent;
+    padding: 2%;
+    color:grey;
+    border-radius:500px;
+    border: 1px solid grey;
+    z-index:1000001;
+    margin: 0 0 0 5%;
+  }
+
+  .red-phone-b {
+    font-size:1.5rem;
+    font-family:font;
+    background-color:#fe2400;
+    padding: 2%;
+    color:white;
+    border-radius:500px;
+    z-index:1000001;
+    margin: 0 0 0 2%;
+  }
+
+  
+  .blue-phone-b {
+    font-size:1.5rem;
+    font-family:font;
+    background-color:var(--swiper-color);
+    padding: 2%;
+    color:white;
+    border-radius:500px;
+    z-index:1000001;
+    margin: 0 0 0 2%;
+  }
+
+  .scroll{
+    text-align:center;
+    color:grey;
+    opacity:0.5;
+    margin-top: -20%;
+    
+  }
+
+  .com{
+    display:block;
+  }
+
+  #death{
+    width: 170%;
+    margin-left: -30%;
+  }
+
+
+  #price-covid{
+    width:50%;
+    margin-top:20%;
+    margin-left:-55%;
+  }
+
+  .left-before{
+    background: linear-gradient(transparent,var(--swiper-color));
+    width: 120%;
+    height: 10%;
+  }
+
+  .r-left-before{
+    background: linear-gradient(transparent,#fe2400);
+    width: 120%;
+    height: 10%;
+  }
+
+  .n-left-before{
+    background: linear-gradient(transparent,grey);
+    width: 120%;
+    height: 10%;
+  }
+
+  #d-nav{
+    height:30%;
+  }
+
+  #d-scroll{
+    margin-top:20%;
+    margin-bottom:0;
+  }
+
+  #sht{
+    height:70%;
+    overscroll-behavior: none;
+  }
+
+
+  #sketch-holder{
+    margin-top:10%;
+  }
+
+
+}
+
+

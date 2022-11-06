@@ -1,0 +1,39 @@
+html{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:black;
+    text-align:center;
+    background-color:#F2ECDF;
+    margin:0;
+
+}
+
+h1{
+    font-size:6rem;
+}
+
+.default {
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color:transparent;
+    font-size:1rem;
+    color:black;
+    padding: 1%; 
+    width: 10rem;
+    bottom:0;
+  z-index:3;
+}
+
+.default:hover{
+    color:black;
+    background-color:white;
+    transition:0.5s ease-in;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+ 
+    width: 100vw;
+    margin-top: -10px;
+  }
+  

@@ -1,0 +1,89 @@
+@font-face{
+    font-family:font;
+    src: url(/assets/font/oriya.ttc);
+    }
+
+
+html{
+    margin: 10px;
+    background-color:grey;
+    color:white;
+    font-family: font;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2{
+    font-size:2rem;
+    font-weight:500;
+}
+
+.fa-home{
+    color:white;
+  }
+
+
+  p:visited{
+      color:white;
+  }
+
+#title{
+    font-size:4rem;
+}
+
+p{
+    margin-bottom:5rem;
+}
+
+img{
+    width:27vw;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    html{
+        font-family: font;
+        background-color:grey;
+        color:white;
+        margin:5%;
+    }
+
+    #title{
+        font-size:4rem;
+    }
+    
+
+    h2{
+        font-size:2rem;
+        font-weight:500;
+    }
+
+    p{ 
+        font-size:1.5rem;
+        line-height: 1.5;
+        font-weight:100;
+    }
+
+    img{
+        width:100%;
+        padding:2%;
+    }
+
+    video{
+        width:100%;
+        padding: 2%;
+    }
+
+    .fa.fa-home {
+        font-size:1rem;
+        color: white;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 10px;
+        text-align:center;
+        width: 2rem;
+      }
+    
+    a{
+        color:white;
+    }
+  }
