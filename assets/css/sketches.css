@@ -2,6 +2,8 @@
   --swiper-color: #0709c0
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
 @font-face{
 font-family:font;
 src: url('../assets/font/oriya.woff');
@@ -9,7 +11,7 @@ src: url('../assets/font/oriya.woff');
 
 html{
     height:100%;
-    font-family: font;
+    font-family: 'Belleza', sans-serif;
     background-color:#F2ECDF;
 
 
