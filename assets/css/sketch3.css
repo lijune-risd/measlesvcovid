@@ -8,6 +8,10 @@
 		--red-color:#fe2400;
 	  }
 	  
+	  
+	  
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');	  
+	  
 
 html,
 body {
@@ -16,7 +20,7 @@ body {
 	margin: 0px;
 	width: 100vw;
 	height: 100vh;
-	font-family: font;
+	font-family: 'Belleza', sans-serif;
 	user-select: none;
 }
 
@@ -223,7 +227,7 @@ body {
 	}
 
 	.btn {
-		font-family: inherit;
+		font-family: 'Belleza', sans-serif;
 		font-size: 4rem;
 		font-weight: bold;
 		background-color: #2F2E44;
@@ -252,7 +256,7 @@ body {
 	}
 
 	.btn-sec .btn {
-		font-family: inherit;
+		font-family: 'Belleza', sans-serif;
 		font-size: 4rem;
 		font-weight: bold;
 		background-color: #2F2E44;
