@@ -3,7 +3,7 @@
 }
 @font-face{
     font-family:font;
-    src: url('../assets/font/oriya.woff');
+    src: url('../assets/font/oriya.woff') format('woff');
     }
 
 html,
@@ -822,7 +822,7 @@ button.swiper-pagination-bullet {
         border-radius: 0px 0px 30px 30px;
         background-color:white;
         box-shadow: 0px 5px 5px rgb(0 0 0 / 20%);
-        height:10%;
+        height:12.5%;
 
     }
 
