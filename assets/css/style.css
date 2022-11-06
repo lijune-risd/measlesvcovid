@@ -40,7 +40,8 @@ html,
 
       .swiper-slide img {
         display: block;
-        width: 100%;
+        width: 50%;
+        margin-left:50%;
       }
 .rect {
     margin: 5px;
@@ -857,7 +858,7 @@ button.swiper-pagination-bullet {
     }
 
     .grey-h2{
-        margin-bottom:18rem;
+        margin-bottom:10rem;
     }
 
     #measles-b{
