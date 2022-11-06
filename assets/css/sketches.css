@@ -231,6 +231,7 @@ html{
   }
 
   button {
+    font-family: 'Belleza', sans-serif;
     font-size:4rem;
     background-color:transparent;
     padding: 2%;
