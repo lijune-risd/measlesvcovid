@@ -192,6 +192,7 @@ body {
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
 	.modal-section {
+		font-family: 'Belleza', sans-serif;
 		width: 90%;
 		font-size:2rem;
 		background-color: #fff;
@@ -210,18 +211,20 @@ body {
 	}
 
 	.modal-section h2 {
+		font-family: 'Belleza', sans-serif;
 		margin-top: 2rem;
 		font-size: 4rem;
 	}
 	
 	.modal-section p {
+		font-family: 'Belleza', sans-serif;
 		margin-top: 2rem;
 		font-size: 2rem;
 		text-align: justify;
 	}
 
 	.modal-section span {
-	
+		font-family: 'Belleza', sans-serif;
 		cursor: pointer;
 		font-size: 2rem;
 		transition: all 0.3s ease-in-out;
